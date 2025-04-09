@@ -19,7 +19,7 @@ assemblies. For example:
 
 ```sh
 # download all assemblies
-curl -o HPRC-yr1.agc https://zenodo.org/record/5826274/files/HPRC-yr1.agc?download=1
+curl -o HPRC-yr1.agc https://zenodo.org/records/5826274/files/HPRC-yr1.agc?download=1
 
 # download precompiled AGC binary for Linux
 curl -L https://github.com/refresh-bio/agc/releases/download/v1.1/agc-1.1_x64-linux.tar.gz|tar -zxvf - agc-1.1_x64-linux/agc
@@ -33,7 +33,7 @@ agc-1.1_x64-linux/agc getset HPRC-yr1.agc NA18906.1 > NA18906.1.fa
 
 [agc]: https://github.com/refresh-bio/agc
 [agc-dl]: https://github.com/refresh-bio/agc/releases
-[yr1-agc]: https://zenodo.org/record/5826274
+[yr1-agc]: https://zenodo.org/records/5826274
 [s3-pub]: https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=working/
 
 <!--
